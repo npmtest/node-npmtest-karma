@@ -1,73 +1,118 @@
-<svg height="1118" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="1118" fill="#555" width="720"></rect>
+<svg height="1838" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="1838" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
-<tspan x="10" y="42">&gt; npmtest-karma@0.0.1 test /home/travis/build/npmtest/node-npmtest-karma</tspan>
+<tspan x="10" y="42">&gt; npmtest-karma@0.0.2 test /home/travis/build/npmtest/node-npmtest-karma</tspan>
 <tspan x="10" y="58">&gt; (set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)</tspan>
 <tspan x="10" y="74"></tspan>
 <tspan x="10" y="90"></tspan>
-<tspan x="10" y="106">[MODE_BUILD=npmTest] - 2017-04-11T04:07:41Z - npm-testing /home/travis/build/npmtest/node-npmtes\</tspan>
+<tspan x="10" y="106">[MODE_BUILD=npmTest] - 2017-04-11T04:09:30Z - npm-testing /home/travis/build/npmtest/node-npmtes\</tspan>
 <tspan x="10" y="122">t-karma</tspan>
 <tspan x="10" y="138"></tspan>
 <tspan x="10" y="154">merging file:///home/travis/build/npmtest/node-npmtest-karma/tmp/build/test-report.json to test-\</tspan>
 <tspan x="10" y="170">report</tspan>
-<tspan x="10" y="186">&gt; server listening on http-port 64750</tspan>
+<tspan x="10" y="186">&gt; server listening on http-port 60988</tspan>
 <tspan x="10" y="202">[node test-case 1 of 6 passed] - testCase_buildLib_default</tspan>
 <tspan x="10" y="218">[node test-case 2 of 6 passed] - testCase_buildReadme_default</tspan>
 <tspan x="10" y="234">[node test-case 3 of 6 passed] - testCase_buildTest_default</tspan>
 <tspan x="10" y="250"></tspan>
 <tspan x="10" y="266">browserTest - created electron entry-page /home/travis/build/npmtest/node-npmtest-karma/tmp/elec\</tspan>
-<tspan x="10" y="282">tron.15b5b321e1c0.f6f035218293d.html</tspan>
+<tspan x="10" y="282">tron.15b5b33ca870.f6d2092f05fd9.html</tspan>
 <tspan x="10" y="298"></tspan>
 <tspan x="10" y="314">[node test-case 4 of 6 passed] - testCase_buildApidoc_default</tspan>
 <tspan x="10" y="330">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 <tspan x="10" y="346">merging file:///home/travis/build/npmtest/node-npmtest-karma/tmp/build/test-report.json to test-\</tspan>
 <tspan x="10" y="362">report</tspan>
 <tspan x="10" y="378">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="394">[5144:0411/040743:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="410">[5144:0411/040743:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="426">[5162:0411/040743:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
+<tspan x="10" y="394">[6489:0411/040933:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="410">[6489:0411/040933:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="426">[6508:0411/040933:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
 <tspan x="10" y="442">in process gpu-process. </tspan>
-<tspan x="10" y="458">[5144:0411/040743:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
-<tspan x="10" y="474"></tspan>
-<tspan x="10" y="490">browserTest - opened url http://127.0.0.1:64750?modeTest=1</tspan>
-<tspan x="10" y="506"></tspan>
-<tspan x="10" y="522">&gt; server listening on http-port 64306</tspan>
-<tspan x="10" y="538">[node test-case 5 of 6 passed] - testCase_buildApp_default</tspan>
-<tspan x="10" y="554"></tspan>
-<tspan x="10" y="570">browserTest - created screenCapture file:///home/travis/build/npmtest/node-npmtest-karma/tmp/bui\</tspan>
-<tspan x="10" y="586">ld/screenCapture.npmTest.browser.%2F.png</tspan>
-<tspan x="10" y="602"></tspan>
-<tspan x="10" y="618">browserTest - created screenCapture file:///home/travis/build/npmtest/node-npmtest-karma/tmp/bui\</tspan>
-<tspan x="10" y="634">ld/screenCapture.npmTest.browser.%2F.html</tspan>
-<tspan x="10" y="650"></tspan>
-<tspan x="10" y="666">browserTest - exit-code 0 - http://127.0.0.1:64750?modeTest=1</tspan>
-<tspan x="10" y="682"></tspan>
-<tspan x="10" y="698"></tspan>
-<tspan x="10" y="714">browserTest - merging test-report from /home/travis/build/npmtest/node-npmtest-karma/tmp/test-re\</tspan>
-<tspan x="10" y="730">port.npmTest.browser.%2F.json</tspan>
-<tspan x="10" y="746"></tspan>
-<tspan x="10" y="762">[node test-case 6 of 6 passed] - testCase_webpage_default</tspan>
-<tspan x="10" y="778">merging file:///home/travis/build/npmtest/node-npmtest-karma/tmp/build/test-report.json to test-\</tspan>
-<tspan x="10" y="794">report</tspan>
-<tspan x="10" y="810"></tspan>
-<tspan x="10" y="826">-------------------------------------------------------</tspan>
-<tspan x="10" y="842">| test-report - buildCustomOrg - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.3\</tspan>
-<tspan x="10" y="858">6 (KHTML, like Gecko) Chrome/53.0.2785.143 Electron/1.4.15 Safari/537.36 - 2017-04-11T04:06:51.3\</tspan>
-<tspan x="10" y="874">85Z</tspan>
-<tspan x="10" y="890">|   67966 ms            0 failed        6 passed      |</tspan>
-<tspan x="10" y="906">-------------------------------------------------------</tspan>
-<tspan x="10" y="922">| test-report - buildCustomOrg - node - linux v6.10.2 - 2017-04-11T04:06:48.310Z</tspan>
-<tspan x="10" y="938">|   16493 ms            0 failed        6 passed      |</tspan>
-<tspan x="10" y="954">-------------------------------------------------------</tspan>
-<tspan x="10" y="970"></tspan>
-<tspan x="10" y="986">created test-report file:///home/travis/build/npmtest/node-npmtest-karma/tmp/build/test-report.h\</tspan>
-<tspan x="10" y="1002">tml</tspan>
-<tspan x="10" y="1018"></tspan>
-<tspan x="10" y="1034"></tspan>
-<tspan x="10" y="1050">npmTest - 0 failed tests</tspan>
-<tspan x="10" y="1066"></tspan>
-<tspan x="10" y="1082"></tspan>
-<tspan x="10" y="1098">[MODE_BUILD=npmTest] - 2017-04-11T04:08:00Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="458">&gt; server listening on http-port 49451</tspan>
+<tspan x="10" y="474">[node test-case 5 of 6 passed] - testCase_buildApp_default</tspan>
+<tspan x="10" y="490"></tspan>
+<tspan x="10" y="506">testCase testCase_webpage_default failed</tspan>
+<tspan x="10" y="522">onTimeout - timeout-error - 30000 ms - testCase_webpage_default</tspan>
+<tspan x="10" y="538">Error: onTimeout - timeout-error - 30000 ms - testCase_webpage_default</tspan>
+<tspan x="10" y="554">    at Timeout._onTimeout (/home/travis/build/npmtest/node-npmtest-karma/node_modules/utility2/l\</tspan>
+<tspan x="10" y="570">ib.utility2.js:4215:25)</tspan>
+<tspan x="10" y="586">    at ontimeout (timers.js:380:14)</tspan>
+<tspan x="10" y="602">    at tryOnTimeout (timers.js:244:5)</tspan>
+<tspan x="10" y="618">    at Timer.listOnTimeout (timers.js:214:5)</tspan>
+<tspan x="10" y="634">Error</tspan>
+<tspan x="10" y="650">    at Object.local.onTimeout (/home/travis/build/npmtest/node-npmtest-karma/node_modules/utilit\</tspan>
+<tspan x="10" y="666">y2/lib.utility2.js:4212:29)</tspan>
+<tspan x="10" y="682">    at /home/travis/build/npmtest/node-npmtest-karma/node_modules/utility2/lib.utility2.js:5514:\</tspan>
+<tspan x="10" y="698">38</tspan>
+<tspan x="10" y="714">    at onEach2 (/home/travis/build/npmtest/node-npmtest-karma/node_modules/utility2/lib.utility2\</tspan>
+<tspan x="10" y="730">.js:4127:21)</tspan>
+<tspan x="10" y="746">    at onParallel (/home/travis/build/npmtest/node-npmtest-karma/node_modules/utility2/lib.utili\</tspan>
+<tspan x="10" y="762">ty2.js:4106:17)</tspan>
+<tspan x="10" y="778">    at onError (/home/travis/build/npmtest/node-npmtest-karma/node_modules/utility2/lib.utility2\</tspan>
+<tspan x="10" y="794">.js:5510:21)</tspan>
+<tspan x="10" y="810">    at Object.local.buildTest (/home/travis/build/npmtest/node-npmtest-karma/node_modules/utilit\</tspan>
+<tspan x="10" y="826">y2/lib.utility2.js:2894:13)</tspan>
+<tspan x="10" y="842">    at Object.local.testCase_buildTest_default [as onTestCase] (/home/travis/build/npmtest/node-\</tspan>
+<tspan x="10" y="858">npmtest-karma/test.js:157:19)</tspan>
+<tspan x="10" y="874">    at /home/travis/build/npmtest/node-npmtest-karma/node_modules/utility2/lib.utility2.js:5521:\</tspan>
+<tspan x="10" y="890">30</tspan>
+<tspan x="10" y="906">    at Object.local.tryCatchOnError (/home/travis/build/npmtest/node-npmtest-karma/node_modules/\</tspan>
+<tspan x="10" y="922">utility2/lib.utility2.js:5640:24)</tspan>
+<tspan x="10" y="938">[node test-case 6 of 6 failed] - testCase_webpage_default</tspan>
+<tspan x="10" y="954"></tspan>
+<tspan x="10" y="970">testCase testCase_webpage_default failed</tspan>
+<tspan x="10" y="986">onTimeout - timeout-error - 30000 ms - npmTest.browser.%2F</tspan>
+<tspan x="10" y="1002">Error: onTimeout - timeout-error - 30000 ms - npmTest.browser.%2F</tspan>
+<tspan x="10" y="1018">    at Timeout._onTimeout (/home/travis/build/npmtest/node-npmtest-karma/node_modules/utility2/l\</tspan>
+<tspan x="10" y="1034">ib.utility2.js:4215:25)</tspan>
+<tspan x="10" y="1050">    at ontimeout (timers.js:380:14)</tspan>
+<tspan x="10" y="1066">    at tryOnTimeout (timers.js:244:5)</tspan>
+<tspan x="10" y="1082">    at Timer.listOnTimeout (timers.js:214:5)</tspan>
+<tspan x="10" y="1098">Error</tspan>
+<tspan x="10" y="1114">    at Object.local.onTimeout (/home/travis/build/npmtest/node-npmtest-karma/node_modules/utilit\</tspan>
+<tspan x="10" y="1130">y2/lib.utility2.js:4212:29)</tspan>
+<tspan x="10" y="1146">    at onNext (/home/travis/build/npmtest/node-npmtest-karma/node_modules/utility2/lib.utility2.\</tspan>
+<tspan x="10" y="1162">js:2167:42)</tspan>
+<tspan x="10" y="1178">    at Object.local.browserTest (/home/travis/build/npmtest/node-npmtest-karma/node_modules/util\</tspan>
+<tspan x="10" y="1194">ity2/lib.utility2.js:2392:13)</tspan>
+<tspan x="10" y="1210">    at Object.local.testCase_webpage_default [as onTestCase] (/home/travis/build/npmtest/node-np\</tspan>
+<tspan x="10" y="1226">mtest-karma/test.js:168:19)</tspan>
+<tspan x="10" y="1242">    at /home/travis/build/npmtest/node-npmtest-karma/node_modules/utility2/lib.utility2.js:5521:\</tspan>
+<tspan x="10" y="1258">30</tspan>
+<tspan x="10" y="1274">    at Object.local.tryCatchOnError (/home/travis/build/npmtest/node-npmtest-karma/node_modules/\</tspan>
+<tspan x="10" y="1290">utility2/lib.utility2.js:5640:24)</tspan>
+<tspan x="10" y="1306">    at /home/travis/build/npmtest/node-npmtest-karma/node_modules/utility2/lib.utility2.js:5518:\</tspan>
+<tspan x="10" y="1322">23</tspan>
+<tspan x="10" y="1338">    at onEach2 (/home/travis/build/npmtest/node-npmtest-karma/node_modules/utility2/lib.utility2\</tspan>
+<tspan x="10" y="1354">.js:4127:21)</tspan>
+<tspan x="10" y="1370">    at onParallel (/home/travis/build/npmtest/node-npmtest-karma/node_modules/utility2/lib.utili\</tspan>
+<tspan x="10" y="1386">ty2.js:4106:17)</tspan>
+<tspan x="10" y="1402">merging file:///home/travis/build/npmtest/node-npmtest-karma/tmp/build/test-report.json to test-\</tspan>
+<tspan x="10" y="1418">report</tspan>
+<tspan x="10" y="1434"></tspan>
+<tspan x="10" y="1450">-------------------------------------------------------</tspan>
+<tspan x="10" y="1466">| test-report - buildCustomOrg - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.3\</tspan>
+<tspan x="10" y="1482">6 (KHTML, like Gecko) Chrome/53.0.2785.143 Electron/1.4.15 Safari/537.36 - 2017-04-11T04:08:32.1\</tspan>
+<tspan x="10" y="1498">56Z</tspan>
+<tspan x="10" y="1514">|   90339 ms            1 failed        5 passed      |</tspan>
+<tspan x="10" y="1530">-------------------------------------------------------</tspan>
+<tspan x="10" y="1546">| test-report - buildCustomOrg - node - linux v6.10.2 - 2017-04-11T04:08:29.356Z</tspan>
+<tspan x="10" y="1562">|   16276 ms            0 failed        6 passed      |</tspan>
+<tspan x="10" y="1578">-------------------------------------------------------</tspan>
+<tspan x="10" y="1594"></tspan>
+<tspan x="10" y="1610">created test-report file:///home/travis/build/npmtest/node-npmtest-karma/tmp/build/test-report.h\</tspan>
+<tspan x="10" y="1626">tml</tspan>
+<tspan x="10" y="1642"></tspan>
+<tspan x="10" y="1658"></tspan>
+<tspan x="10" y="1674">npmTest - 1 failed tests</tspan>
+<tspan x="10" y="1690"></tspan>
+<tspan x="10" y="1706"></tspan>
+<tspan x="10" y="1722">[MODE_BUILD=npmTest] - 2017-04-11T04:10:04Z - EXIT_CODE - 1</tspan>
+<tspan x="10" y="1738"></tspan>
+<tspan x="10" y="1754">npm ERR! Test failed.  See above for more details.</tspan>
+<tspan x="10" y="1770">[6489:0411/041004:ERROR:bus.cc(434)] Failed to connect to the bus: //bin/dbus-launch terminated \</tspan>
+<tspan x="10" y="1786">abnormally with the following error: Check failed: g_pipe_pid == getpid()</tspan>
+<tspan x="10" y="1802"></tspan>
+<tspan x="10" y="1818">[6489:0411/041004:ERROR:child_process_launcher.cc(528)] Failed to launch child process</tspan>
 </text>
 </svg>
