@@ -1,7 +1,5 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <title>Code coverage report for node-npmtest-karma/karma/lib/browser_result.js</title>
+<html lang="en"><head>
+    <title>Code coverage report for node-npmtest-karma/karma/lib/plugin.js</title>
     <meta charset="utf-8">
     <style>
         body, html {
@@ -194,27 +192,27 @@
     <h1 style="font-weight: bold;">
         <a href="https://github.com/npmtest/node-npmtest-karma">npmtest-karma (v0.0.2)</a>
     </h1>
-    <h1>Code coverage report for <span class="entity">node-npmtest-karma/karma/lib/browser_result.js</span></h1>
+    <h1>Code coverage report for <span class="entity">node-npmtest-karma/karma/lib/plugin.js</span></h1>
     <h2>
         
-        Statements: <span class="metric">13.33% <small>(2 / 15)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Statements: <span class="metric">17.65% <small>(6 / 34)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Branches: <span class="metric">0% <small>(0 / 4)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Branches: <span class="metric">0% <small>(0 / 12)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Functions: <span class="metric">0% <small>(0 / 3)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Functions: <span class="metric">0% <small>(0 / 5)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Lines: <span class="metric">13.33% <small>(2 / 15)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Lines: <span class="metric">17.65% <small>(6 / 34)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
     </h2>
-    <div class="path"><a href="../../../index.html">All files</a> &#187; <a href="index.html">node-npmtest-karma/karma/lib/</a> &#187; browser_result.js</div>
+    <div class="path"><a href="../../../index.html">All files</a> » <a href="index.html">node-npmtest-karma/karma/lib/</a> » plugin.js</div>
 </div>
 <div class="body">
 <pre><table class="coverage">
-<tr><td class="line-count">1
+<tbody><tr><td class="line-count">1
 2
 3
 4
@@ -240,63 +238,151 @@
 24
 25
 26
-27</td><td class="line-coverage"><span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-no">&nbsp;</span>
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56</td><td class="line-coverage"><span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">var Result = <span class="fstat-no" title="function not covered" >function () {</span>
-<span class="cstat-no" title="statement not covered" >  var startTime = Date.now()</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">var fs = require('graceful-fs')
+var path = require('path')
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  this.total = this.skipped = this.failed = this.success = 0</span>
-<span class="cstat-no" title="statement not covered" >  this.netTime = this.totalTime = 0</span>
-<span class="cstat-no" title="statement not covered" >  this.disconnected = this.error = false</span>
+var helper = require('./helper')
+var log = require('./logger').create('plugin')
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  this.totalTimeEnd = <span class="fstat-no" title="function not covered" >function () {</span></span>
-<span class="cstat-no" title="statement not covered" >    this.totalTime = Date.now() - startTime</span>
-  }
+var IGNORED_PACKAGES = ['karma-cli', 'karma-runner.github.com']
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  this.add = <span class="fstat-no" title="function not covered" >function (result) {</span></span>
-<span class="cstat-no" title="statement not covered" >    if (result.skipped) {</span>
-<span class="cstat-no" title="statement not covered" >      this.skipped++</span>
-    } else <span class="cstat-no" title="statement not covered" >if (result.success) {</span>
-<span class="cstat-no" title="statement not covered" >      this.success++</span>
-    } else {
-<span class="cstat-no" title="statement not covered" >      this.failed++</span>
+exports.resolve = <span class="fstat-no" title="function not covered">function (plugins, emitter) {</span>
+<span class="cstat-no" title="statement not covered">  var modules = []</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered">  var requirePlugin = <span class="fstat-no" title="function not covered">function (name) {</span></span>
+<span class="cstat-no" title="statement not covered">    log.debug('Loading plugin %s.', name)</span>
+<span class="cstat-no" title="statement not covered">    try {</span>
+<span class="cstat-no" title="statement not covered">      modules.push(require(name))</span>
+    } catch (e) {
+<span class="cstat-no" title="statement not covered">      if (e.code === 'MODULE_NOT_FOUND' &amp;&amp; e.message.indexOf(name) !== -1) {</span>
+<span class="cstat-no" title="statement not covered">        log.error('Cannot find plugin "%s".\n  Did you forget to install it?\n' +</span>
+          '  npm install %s --save-dev', name, name)
+      } else {
+<span class="cstat-no" title="statement not covered">        log.error('Error during loading "%s" plugin:\n  %s', name, e.message)</span>
+      }
+<span class="cstat-no" title="statement not covered">      emitter.emit('load_error', 'plug_in', name)</span>
     }
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    this.netTime += result.time</span>
   }
+&nbsp;
+<span class="cstat-no" title="statement not covered">  plugins.forEach(<span class="fstat-no" title="function not covered">function (plugin) {</span></span>
+<span class="cstat-no" title="statement not covered">    if (helper.isString(plugin)) {</span>
+<span class="cstat-no" title="statement not covered">      if (plugin.indexOf('*') === -1) {</span>
+<span class="cstat-no" title="statement not covered">        requirePlugin(plugin)</span>
+<span class="cstat-no" title="statement not covered">        return</span>
+      }
+<span class="cstat-no" title="statement not covered">      var pluginDirectory = path.normalize(path.join(__dirname, '/../..'))</span>
+<span class="cstat-no" title="statement not covered">      var regexp = new RegExp('^' + plugin.replace('*', '.*'))</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered">      log.debug('Loading %s from %s', plugin, pluginDirectory)</span>
+<span class="cstat-no" title="statement not covered">      fs.readdirSync(pluginDirectory).filter(<span class="fstat-no" title="function not covered">function (pluginName) {</span></span>
+<span class="cstat-no" title="statement not covered">        return IGNORED_PACKAGES.indexOf(pluginName) === -1 &amp;&amp; regexp.test(pluginName)</span>
+      }).forEach(<span class="fstat-no" title="function not covered">function (pluginName) {</span>
+<span class="cstat-no" title="statement not covered">        requirePlugin(pluginDirectory + '/' + pluginName)</span>
+      })
+<span class="cstat-no" title="statement not covered">      return</span>
+    }
+<span class="cstat-no" title="statement not covered">    if (helper.isObject(plugin)) {</span>
+<span class="cstat-no" title="statement not covered">      log.debug('Loading inlined plugin (defining %s).', Object.keys(plugin).join(', '))</span>
+<span class="cstat-no" title="statement not covered">      modules.push(plugin)</span>
+<span class="cstat-no" title="statement not covered">      return</span>
+    }
+<span class="cstat-no" title="statement not covered">    log.error('Invalid plugin %s', plugin)</span>
+<span class="cstat-no" title="statement not covered">    emitter.emit('load_error', 'plug_in', plugin)</span>
+  })
+&nbsp;
+<span class="cstat-no" title="statement not covered">  return modules</span>
 }
 &nbsp;
-module.exports = Result
-&nbsp;
 &nbsp;</pre></td></tr>
-</table></pre>
+</tbody></table></pre>
 </div>
 <div class="footer">
     <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Sat Apr 15 2017 21:17:54 GMT+0000 (UTC)</div>
 </div>
-</body>
-</html>
+
+
+</body></html>
